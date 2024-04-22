@@ -20,11 +20,11 @@ window.onload = function() {
       }
     }
   }
-  var pTag = document.getElementById("combinations");
+  var divTag = document.getElementById("combinations");
   var ul = document.createElement("ul");
   ul.setAttribute("class", "list-group list-group-numbered");
 
-  pTag.appendChild(ul);
+  divTag.appendChild(ul);
 
   combinations.forEach((item) => {
     var li = document.createElement("li");
